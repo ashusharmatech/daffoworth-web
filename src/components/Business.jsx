@@ -18,7 +18,7 @@ const Business = () => (
 	<section id="features" className={layout.section}>
 		<div className={layout.sectionInfo}>
 			<h2 className={styles.heading2}>
-				We at Dffoworth, <br className="sm:block hidden" /> pledge to medical ethics.
+				We at Daffoworth, <br className="sm:block hidden" /> pledge to medical ethics.
 			</h2>
 			<p className={`${styles.paragraph} max-w-[470px] mt-5`}>
 				Daffoworth for a start is catering to therapeutic field like Orthopedics, Medicine, Gyne, Dental,
