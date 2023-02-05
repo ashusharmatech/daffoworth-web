@@ -6,7 +6,7 @@ const ProductSimple = ({ product, key }) => {
 
 	return (
 		<React.Fragment>
-			<div className="flex flex-wrap w-1/3">
+			<div className="flex flex-wrap lg:w-1/3">
 				<div className="w-full p-5 md:p-2 card-zoom border-spacing-1 border-white-300 border-1">
 					<img
 						alt="gallery"
