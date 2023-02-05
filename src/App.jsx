@@ -1,5 +1,6 @@
 import styles from './style';
 import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from './components';
+import Product from './components/Product';
 
 
 const App = () => (
@@ -20,7 +21,8 @@ const App = () => (
 			<div className={`${styles.boxWidth}`}>
 				<Stats />
 				{/* <Business /> */}
-				<Billing />
+				{/* <Billing /> */}
+				<Product/>
 				{/* <CardDeal /> */}
 				<Testimonials />
 				{/* <Clients /> */}

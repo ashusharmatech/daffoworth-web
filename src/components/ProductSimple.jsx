@@ -1,25 +1,11 @@
 import React from 'react';
 
-const ProductSimple = () => {
+const ProductSimple = ({ product, key }) => {
 	return (
-		<div className="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden my-10">
-			<div className="px-4 py-2">
-				<h1 className="text-gray-900 font-bold text-3xl uppercase">Cocodew</h1>
-				<p className="text-gray-600 text-sm mt-1">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos quidem sequi illum facere
-					recusandae voluptatibus
-				</p>
-			</div>
-			<img
-				className="h-56 w-full object-cover mt-2"
-				src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
-				alt="NIKE AIR"
-			/>
-			<div className="flex items-center justify-between px-4 py-2 bg-gray-900">
-				<h1 className="text-gray-200 font-bold text-xl">$129</h1>
-				<button className="px-3 py-1 bg-gray-200 text-sm text-gray-900 font-semibold rounded">
-					Buy on 1Mg
-				</button>
+		<div class="flex flex-wrap w-1/3">
+			<div class="w-full p-1 md:p-2">
+				<img alt="gallery" class="block object-center w-full rounded-lg" src={product.img} />
+				<div class="flex justify-center text-xl text-gray-800">{product.description}</div>
 			</div>
 		</div>
 	);
