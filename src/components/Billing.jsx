@@ -5,7 +5,7 @@ import ProductSimple from './ProductSimple';
 
 
 const Billing = () => (
-	<section id="product" className={layout.sectionReverse}>
+	<section id="products" className={layout.sectionReverse}>
 		<div className="pt-6 pb-12 bg-gray-300">
 			{products.map(function(object, i) {
 				return <ProductSimple product={object} key={i} />;

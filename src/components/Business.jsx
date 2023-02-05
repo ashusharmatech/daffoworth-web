@@ -15,7 +15,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 );
 
 const Business = () => (
-	<section id="features" className={layout.section}>
+	<section id="vision" className={layout.section}>
 		<div className={layout.sectionInfo}>
 			<h2 className={styles.heading2}>
 				We at Daffoworth, <br className="sm:block hidden" /> pledge to medical ethics.
