@@ -113,9 +113,9 @@ var products = [
 
 const Product = () => {
 	return (
-		<section id="products" class="overflow-hidden text-gray-700 ">
-			<div class="container px-5 py-2 mx-auto lg:pt-12 lg:px-32">
-				<div class="flex flex-wrap -m-1 md:-m-2">
+		<section id="products" className="overflow-hidden text-gray-700 ">
+			<div className="container px-5 py-2 mx-auto lg:pt-12 lg:px-32">
+				<div className="flex flex-wrap -m-1 md:-m-2">
 					{products.map(function(object, i) {
 						return <ProductSimple product={object} key={i} />;
 					})}

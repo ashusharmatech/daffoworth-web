@@ -10,18 +10,18 @@ const ProductDetail = ({ setShowModal, product }) => {
 			<div className="fixed inset-0 z-10 overflow-y-auto">
 				<div className="fixed inset-0 w-full h-full bg-black opacity-40" onClick={() => setShowModal(false)} />
 				<div className="flex items-center min-h-screen px-4 py-8">
-					<div class="relative w-2/3 p-4 mx-auto bg-white rounded-md shadow-lg">
-						<div class="mx-auto flex flex-wrap">
+					<div className="relative w-2/3 p-4 mx-auto bg-white rounded-md shadow-lg">
+						<div className="mx-auto flex flex-wrap">
 							<img
 								alt="ecommerce"
-								class="lg:w-1/2 w-full object-contain object-center rounded border border-gray-200"
+								className="lg:w-1/2 w-full object-contain object-center rounded border border-gray-200"
 								src={product.img}
 							/>
-							<div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-								<h2 class="text-sm title-font text-gray-500 tracking-widest">Daffoworth</h2>
-								<h1 class="text-gray-900 text-3xl title-font font-medium mb-1">{product.title}</h1>
-								<div class="flex mb-4">
-									<p class="leading-relaxed" />
+							<div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+								<h2 className="text-sm title-font text-gray-500 tracking-widest">Daffoworth</h2>
+								<h1 className="text-gray-900 text-3xl title-font font-medium mb-1">{product.title}</h1>
+								<div className="flex mb-4">
+									<p className="leading-relaxed" />
 								</div>
 								<div className="items-center gap-2 mt-3 sm:flex">
 									{product.url && <button
