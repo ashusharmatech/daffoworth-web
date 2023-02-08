@@ -10,7 +10,7 @@ const ProductSimple = ({ product, key }) => {
 				<div className="w-full p-5 md:p-2 card-zoom border-spacing-1 border-white-300 border-1">
 					<img
 						alt="gallery"
-						className="block object-center w-full rounded-lg cursor-pointer card-zoom-image"
+						className="block object-center w-full h-25 rounded-lg cursor-pointer card-zoom-image "
 						src={product.img}
 						onClick={() => setShowModal(true)}
 					/>
