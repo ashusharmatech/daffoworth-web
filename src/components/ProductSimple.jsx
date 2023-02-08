@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ProductDetail from './ProductDetail';
 
-const ProductSimple = ({ product, key }) => {
+const ProductSimple = ({ product }) => {
 	const [ showModal, setShowModal ] = useState(false);
 
 	return (
