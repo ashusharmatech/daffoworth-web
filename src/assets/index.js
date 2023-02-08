@@ -24,7 +24,7 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import hero from "./hero.jpg";
-import medecine from './medicine.png';
+import medecine from './medicine.webp';
 
 
 import cocodev from './cocodew.png';
